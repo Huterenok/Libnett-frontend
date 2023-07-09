@@ -1,0 +1,19 @@
+.wrapper {
+  height: 40px;
+  padding: 0 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 3px solid rgba(0, 0, 0, 1);
+}
+
+.input {
+  direction: rtl;
+}
+
+.title {
+  font-family: 'Russo One', sans-serif;
+  font-size: 16px;
+}

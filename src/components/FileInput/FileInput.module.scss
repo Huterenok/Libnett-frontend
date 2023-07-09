@@ -1,0 +1,41 @@
+.fileUploadCon {
+  align-self: center;
+  width: 250px;
+  height: 400px;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    border: 3px dashed #000;
+
+    .label {
+      font-size: 20px;
+      font-family: 'Russo One', sans-serif;
+      color: #000;
+      border: 3px solid #000;
+      font-weight: bold;
+      padding: 4px 8px;
+    }
+  }
+  input {
+    display: none;
+  }
+
+  .row {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+      color: #be4040;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+  }
+}

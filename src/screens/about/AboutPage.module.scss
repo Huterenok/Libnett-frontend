@@ -1,0 +1,45 @@
+.wrapper {
+  margin-top: 64px;
+
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 96px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftSide {
+  width: 570px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.imgLibrary {
+  margin-top: 64px;
+
+  display: flex;
+  gap: 16px;
+}
+
+.rightSide {
+  width: 690px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

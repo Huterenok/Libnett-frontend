@@ -1,0 +1,38 @@
+.wrapper {
+  margin-top: 210px;
+
+  height: 565px;
+
+  display: flex;
+  align-items: center;
+  gap: 42px;
+}
+
+.leftSide {
+  width: 565px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 64px;
+}
+
+.rightSide {
+  width: 630px;
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+}
+
+.img1 {
+  position: absolute;
+  bottom: 102px;
+  right: 60px;
+}
+.img2 {
+  position: absolute;
+  bottom: 0px;
+  right: 60px;
+}

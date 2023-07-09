@@ -1,0 +1,35 @@
+.wrapper {
+  padding-bottom: 128px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.header {
+  height: 140px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.leftHeader {
+  width: 600px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rightHeader {
+  width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.books {
+  width: 1400px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 64px;
+}
